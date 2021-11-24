@@ -1,0 +1,5 @@
+a, b = input('이메일을 입력해주세요 : ').split('@')
+c = b.split('.')
+print(a)
+print (c[0])
+print (c[1])
